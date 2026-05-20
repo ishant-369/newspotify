@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>login</title>
+    <link rel="stylesheet" href="logindesign.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form" id="loginform">
+        <h2>login</h2>
+        <input type="email" id="loginUser" placeholder="Email">
+        <input type="password" id="loginPass" placeholder="password" />
+        <!--<button onclick="login()">Login</button>-->
+        <button onclick="login()">Login</button>
+        <p>
+          Don't have an account?
+          <a href="signnup.html">Signup</a>
+        </p>
+      </div>
+      <div class="form hidden" id="signupform">
+        <h2>Signup</h2>
+        <input type="email" id="signUpUser" placeholder="Email" />
+        <input type="password" id="signUpPass" placeholder="password" />
+        <button onclick="signup()">Signup</button>
+        <button onclick="login()">Login</button>
+        <p>
+          Already have an account?
+          <a href="signnup.html">Login</a>
+        </p>
+      </div>
+    </div>
+    <script src="script369.js"></script>
+  </body>
+</html>
