@@ -20,7 +20,7 @@ Audio playback support
 
 User authentication
 
-Playlist management
+Playlist management...
 
 Search functionality
 
