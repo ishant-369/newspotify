@@ -2,6 +2,9 @@ Spotify Clone
 
 A responsive Spotify-inspired music streaming interface built using modern web technologies.
 This project recreates the core user interface and user experience of Spotify for learning and development purposes.
+
+
+
 Technologies Used:
 
 HTML
